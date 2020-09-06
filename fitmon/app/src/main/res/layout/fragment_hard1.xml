@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hard1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_marginVertical="10dp"
+                android:id="@+id/wholeBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:stretchColumns="*"
+                >
+
+                <TableRow
+                    android:layout_marginVertical="10dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hard_fitness_video_1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go1"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000"/>
+
+                        <ImageButton
+                            android:id="@+id/u_1"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/like_u_1"
+                            android:visibility="invisible"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginLeft="152dp"
+                            android:background="@drawable/like_heart" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:src="#ffffff"
+                        android:background="#0fff"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hard_fitness_video_2"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go2"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000"/>
+
+                        <ImageButton
+                            android:id="@+id/u_2"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/like_u_2"
+                            android:visibility="invisible"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginLeft="152dp"
+                            android:background="@drawable/like_heart" />
+                    </FrameLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginVertical="10dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hard_fitness_video_3"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go3"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000"/>
+
+                        <ImageButton
+                            android:id="@+id/u_3"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/like_u_3"
+                            android:visibility="invisible"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginLeft="152dp"
+                            android:background="@drawable/like_heart" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:src="#ffffff"
+                        android:background="#0fff"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hard_fitness_video_4"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go4"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000"/>
+
+                        <ImageButton
+                            android:id="@+id/u_4"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/like_u_4"
+                            android:visibility="invisible"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginLeft="152dp"
+                            android:background="@drawable/like_heart" />
+                    </FrameLayout>
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginVertical="10dp">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/hard_fitness_video_5"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go5"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000"/>
+
+                        <ImageButton
+                            android:id="@+id/u_5"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop"/>
+
+                        <ImageButton
+                            android:id="@+id/like_u_5"
+                            android:visibility="invisible"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="140dp"
+                            android:layout_marginLeft="152dp"
+                            android:background="@drawable/like_heart" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

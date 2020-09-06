@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fitmon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kakao_app_key">34604ca4e000101405a83e6b1937e8a3</string>
+</resources>

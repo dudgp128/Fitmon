@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelActivity"
+    android:orientation="vertical">
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/group"
+        android:layout_gravity="center"
+        android:background="#00ff0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cafe24ohsquare"
+        android:text="미루지말고 운동하자"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginTop="-5dp"
+        android:layout_gravity="center"
+        android:textSize="43sp"
+        android:fontFamily="@font/cafe24ohsquare"
+        android:text="피트몬"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn_result"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/graph"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/static_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginLeft="8dp"
+            android:text="스탬프/통계"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="사용자님 어서오세요"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:layout_margin="5dp"
+            android:id="@+id/btn_logout"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/logout"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.5"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/level_back2_crop">
+
+
+        <Button
+            android:id="@+id/Easy"
+            android:layout_width="175dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="23dp"
+            android:background="#00ff0000"
+            android:text="EASY"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/Normal"
+            android:layout_width="175dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="218dp"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:text="NORMAL"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/Hard"
+            android:layout_width="175dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="278dp"
+            android:background="#00ff0000"
+            android:text="HARD"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="270dp"
+            android:background="@drawable/heart_"
+            />
+        <Button
+            android:id="@+id/Favorite"
+            android:layout_width="175dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="278dp"
+            android:background="#00ff0000"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="like"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

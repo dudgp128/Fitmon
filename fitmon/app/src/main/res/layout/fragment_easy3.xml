@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".easy3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/lowerBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:stretchColumns="*">
+
+                <TableRow android:layout_marginVertical="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/go21_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_1"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go21"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_1"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_1"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:background="#0fff"
+                        android:src="#ffffff" />
+
+                    <FrameLayout
+                        android:id="@+id/go22_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_2"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go22"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_2"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_2"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                </TableRow>
+
+                <TableRow android:layout_marginVertical="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/go23_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_3"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go23"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_3"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_3"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:background="#0fff"
+                        android:src="#ffffff" />
+
+                    <FrameLayout
+                        android:id="@+id/go24_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_4"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go24"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_4"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_4"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                </TableRow>
+
+                <TableRow android:layout_marginVertical="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/go25_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_5"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go25"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_5"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_5"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:background="#0fff"
+                        android:src="#ffffff" />
+
+                    <FrameLayout
+                        android:id="@+id/go26_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_6"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go26"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_6"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_6"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </TableRow>
+                <TableRow android:layout_marginVertical="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/go27_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_7"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go27"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_7"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_7"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:background="#0fff"
+                        android:src="#ffffff" />
+
+                    <FrameLayout
+                        android:id="@+id/go28_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_8"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go28"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_8"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_8"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </TableRow>
+                <TableRow android:layout_marginVertical="10dp">
+
+                    <FrameLayout
+                        android:id="@+id/go29_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_9"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go29"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_9"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_9"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+
+                    <ImageButton
+                        android:layout_width="7dp"
+                        android:layout_height="match_parent"
+                        android:background="#0fff"
+                        android:src="#ffffff" />
+
+                    <FrameLayout
+                        android:id="@+id/go30_"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/easy_lower_fitness_video_10"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/go30"
+                            android:layout_width="200dp"
+                            android:layout_height="140dp"
+                            android:background="#00ff0000" />
+
+                        <ImageButton
+                            android:id="@+id/s_10"
+                            android:layout_width="45dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="145dp"
+                            android:background="@drawable/like_green_heart"
+                            android:scaleType="centerCrop" />
+
+                        <ImageButton
+                            android:id="@+id/like_s_10"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="152dp"
+                            android:layout_marginTop="140dp"
+                            android:background="@drawable/like_heart"
+                            android:visibility="invisible" />
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+        </FrameLayout>
+
+    </ScrollView>
+</LinearLayout>

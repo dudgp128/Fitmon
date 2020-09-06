@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".state_first">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="165dp"
+                android:text="스탬프"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="25일 챌린지! \n25일 출석해서 스탬프를 완성하자!"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/stamp_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="#00dd92"
+                android:text="출석"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/stamp_background"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/first_stamp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp02"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/first_stamp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp03"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/stamp02"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp04"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/stamp03"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp05"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/stamp04"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp06"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/first_stamp"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="34dp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp07"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="102dp"
+                android:layout_toRightOf="@id/stamp06"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp08"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="102dp"
+                android:layout_toRightOf="@id/stamp07"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp09"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="102dp"
+                android:layout_toRightOf="@id/stamp08"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="102dp"
+                android:layout_toRightOf="@id/stamp09"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/stamp06"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="196dp"
+                android:layout_toRightOf="@id/stamp11"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="196dp"
+                android:layout_toRightOf="@id/stamp12"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="196dp"
+                android:layout_toRightOf="@id/stamp13"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="196dp"
+                android:layout_toRightOf="@id/stamp14"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/stamp11"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="289dp"
+                android:layout_toRightOf="@id/stamp16"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="289dp"
+                android:layout_toRightOf="@id/stamp17"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="289dp"
+                android:layout_toRightOf="@id/stamp18"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="289dp"
+                android:layout_toRightOf="@id/stamp19"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/stamp16"
+                android:layout_marginLeft="-1dp"
+                android:layout_marginTop="33dp"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="382dp"
+                android:layout_toRightOf="@id/stamp21"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="382dp"
+                android:layout_toRightOf="@id/stamp22"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="382dp"
+                android:layout_toRightOf="@id/stamp23"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/stamp25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="382dp"
+                android:layout_toRightOf="@id/stamp24"
+                android:background="@drawable/stamp_green"
+                android:visibility="invisible" />
+        </RelativeLayout>
+</LinearLayout>
