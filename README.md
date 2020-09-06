@@ -1,2 +1,2 @@
 # Fitmon
-Android App
+성신여자대학교 김기현, 이소희, 조영혜, 
